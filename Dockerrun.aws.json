@@ -1,12 +1,16 @@
 {
-  "AWSEBDockerrunVersion": "1",
-  "Image": {
-    "Name": "manoj1992/docker-env:1.0",
+ "AWSEBDockerrunVersion": "1",
+ "Authentication": {
+   "Bucket": "jellyfish-docer-cred",
+   "Key": ".dockercfg"
+ },
+ "Image": {
+    "Name": "543816070942.dkr.ecr.us-west-2.amazonaws.com/cyb-alm-jellyfish-dev-ecr-repo:BUILD_NUMBER",
     "Update": "true"
   },
-  "Ports": [
-    {
-      "ContainerPort": "80"
-    }
-  ]
+ "Ports": [
+   {
+     "ContainerPort": "80"
+   }
+ ]
 }
