@@ -5,7 +5,7 @@
    "Key": ".dockercfg"
  },
  "Image": {
-    "Name": "543816070942.dkr.ecr.us-west-2.amazonaws.com/jellyfish/staging/phpapp:GIT_COMMIT_BUILD_NUMBER",
+    "Name": "REPO_NAME:GIT_COMMIT_BUILD_NUMBER",
     "Update": "true"
   },
  "Ports": [
